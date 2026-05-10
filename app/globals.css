@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #00478D;
+  --color-primary-container: #005EB8;
+  --color-secondary: #9B4330;
+  --color-on-surface: #151D22;
+  --color-surface-container-low: #F5FAFF;
+  --color-surface-container-high: #EAF2F9;
+  --color-outline-variant: rgba(194, 198, 212, 0.2);
+}
+
+@layer base {
+  body {
+    @apply text-on-surface;
+  }
+}
+
+@layer components {
+  .signature-gradient {
+    background: linear-gradient(135deg, #00478D 0%, #005EB8 100%);
+  }
+  
+  .glass-nav {
+    @apply bg-white/70 backdrop-blur-xl border-b border-white/20;
+  }
+}
