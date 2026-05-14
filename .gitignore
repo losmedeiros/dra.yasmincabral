@@ -7,5 +7,6 @@ coverage/
 !.env.example
 
 # Ensure the static export folder is tracked
-!site_para_deploy/
-!site_para_deploy/**
+!docs
+!docs/**/*
+!docs/**/.*

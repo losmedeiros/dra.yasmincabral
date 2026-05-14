@@ -1,0 +1,4 @@
+# Prevent GitHub Pages from using Jekyll to process the docs folder
+# This is necessary for Next.js static exports (folders starting with underscores like _next)
+.nojekyll
+

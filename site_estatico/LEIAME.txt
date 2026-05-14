@@ -1,1 +1,0 @@
-Este diretorio contem a versao estatica exportada do site Next.js.
